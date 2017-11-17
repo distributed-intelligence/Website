@@ -12,13 +12,6 @@
       "key" : "Cache-Control",
       "value" : "max-age=31536000"
       } ]
-    }, {
-      "source" : "**/main.min.css",
-      "headers" : [ {
-      "key" : "Cache-Control",
-      "value" : "max-age=604800"
-      } ]
     } ]
-  },
-  "short_name" : "Muhammad"
+  }
 }
