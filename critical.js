@@ -7,5 +7,3 @@ critical.generate({
     dest: '../public/index-critical.html',
     minify: true,
 });
-
-
