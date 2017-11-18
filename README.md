@@ -140,6 +140,10 @@ See [main.css](working_files/stylesheets/main.css).
 * [Firebase](https://firebase.google.com/) - web hosting
 * [Emogrifier](https://github.com/kangax/html-minifier) - HTML + CSS inline
 * [html-minifier](https://github.com/kangax/html-minifier) - minify HTML
+* [flaticon](https://www.flaticon.com/) -  vector icons
+  * github - Icon made by [Dave Gandy](https://www.flaticon.com/authors/dave-gandy).
+  * linkedin - Icon made by [simpleicon](https://www.flaticon.com/authors/simpleicon).
+  * file - Icon made by [freepik](https://www.flaticon.com/authors/freepik).
 
 ## License
 
