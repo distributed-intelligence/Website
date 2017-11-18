@@ -107,7 +107,8 @@ This site acheives a perfect score on the following pagespeed testing bechmarks:
 
 This site is developed in the working_files directory. This directory contains unminified, legible:
 - index.html
-- main.css
+- stylesheets/:
+  - main.css
 
 Styling or content changes are tested locally using the working files. When ready for deployment, Emogrifier is run with working files as input. The resulting html with inline styling is outputted to public/index.html. Subsequently, html-minifier is run with public/index.html as input, outputting a minified public/index.html. This is the final site available to the public.
 
@@ -126,7 +127,7 @@ The size of the page served upon a client visit is 3.62kb, as of writing (see op
 
 ## Styling
 
-See working_files/main.css
+See working_files/stylesheets/main.css
 
 ## To-do
 
