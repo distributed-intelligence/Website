@@ -1,4 +1,4 @@
-# Fastest Website in the World
+# The Fastest Website in the World
 
 https://muhammadhaidar.me
 
@@ -9,6 +9,14 @@ I don't like web development.
 I do enjoy performance optimization, networking, and distributed computing. 
 
 To motivate this personal website, I attempted to create the most performant website in the world. I learned a lot about how the web works through this project, and acheived a perfectly optimized website. This is the fastest implementation possible, short of finding a dedicated host faster than Google Firebase (costly, and not very practical for a personal website).
+
+### Result 
+
+~80ms average page load speed from Vancouver, Canada.
+
+~30ms average page load speed from San Jose, California, USA.
+
+See benchmarks below.
 
 ### Optimizations
 
@@ -73,13 +81,13 @@ Downside: None (if your site has a favicon.ico, then this optimization doesn't a
 
 #### Minimized Server Response Time.
 
-Firebase is up there with the fastest publically or comercially available hosting services.
+Firebase is one of the fastest publically or comercially available hosting services.
 
-And, it's free! Highly recommended for personal website and projects.
+And, it's free! Highly recommended for personal websites and projects.
 
 Performance Improvement: reduces connection time between client and host.
 
-Downside: There are probably faster, more expensive solutions (i.e. dedicated Akamai server).
+Downside: There are likely faster, more expensive solutions (i.e. dedicated Akamai servers).
 
 ### Benchmarks
 
@@ -91,7 +99,40 @@ This site acheives a perfect score on the following pagespeed testing bechmarks:
 
 [GTmetrix Performance Report (PageSpeed and YSlow)](https://gtmetrix.com/reports/muhammadhaidar.me/fvnHBURR)
 
+[GTmetrix Performance Report (comparison with https://google.ca)](https://gtmetrix.com/compare/QakIfZBa/QbbU6P4O)
+
 *GTmetrix awards a 99/100 for the "Specify Image Dimensions" criterion. This is a [false negative](https://gtmetrix.com/specify-image-dimensions.html).
+
+## Deployment Structure
+
+This site is developed in the working_files directory. This directory contains unminified, legible:
+- index.html
+- main.css
+
+Styling or content changes are tested locally using the working files. When ready for deployment, Emogrifier is run with working files as input. The resulting html with inline styling is outputted to public/index.html. Subsequently, html-minifier is run with public/index.html as input, outputting a minified public/index.html. This is the final site available to the public.
+
+The public folder contains all files hosted online:
+- index.html
+- 404.html
+- static/:
+  - github.svg (github icon vector)
+  - linkedin.svg (linkedin icon vector)
+  - file.svg (resume icon vector)
+  - resume.pdf (my resume)
+
+In total, 6 files are hosted online. 82kb total filesize.
+
+The size of the page served upon a client visit is 3.62kb, as of writing (see optimizations).
+
+## Styling
+
+See working_files/main.css
+
+## To-do
+
+1. Implement Responsive Layouts.
+2. Optimize 404 page (404.html).
+3. Add content to site (projects, technical insights, etc).
 
 ## Credits
 
