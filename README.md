@@ -97,7 +97,7 @@ This site acheives a perfect score on the following pagespeed testing bechmarks:
 
 [Pingdom Website Speed Test](https://tools.pingdom.com/#!/Kzvjw/https://muhammadhaidar.me)
 
-[GTmetrix Performance Report (PageSpeed and YSlow)](https://gtmetrix.com/reports/muhammadhaidar.me/fvnHBURR)
+[GTmetrix Performance Report (PageSpeed and YSlow)](https://gtmetrix.com/reports/muhammadhaidar.me/HJ09yJnU)
 
 [GTmetrix Performance Report (comparison with https://www.google.ca)](https://gtmetrix.com/compare/HJ09yJnU/EmFHSstX)
 
