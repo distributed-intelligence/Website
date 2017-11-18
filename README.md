@@ -1,6 +1,6 @@
 # Fastest Website in the World
 
-personal website. https://muhammadhaidar.me
+https://muhammadhaidar.me
 
 ## Optimized for Performance
 
@@ -69,7 +69,7 @@ index.html specifies the following to remove an extraneous request for favicon.i
 
 Performance Improvement: client no longer has to ask host for favicon.ico, which doesn't exist.
 
-Downside: None (if you your site has a favicon.ico, then this optimization doesn't apply).
+Downside: None (if your site has a favicon.ico, then this optimization doesn't apply).
 
 #### Minimized Server Response Time.
 
@@ -77,7 +77,7 @@ Firebase is up there with the fastest publically or comercially available hostin
 
 And, it's free! Highly recommended for personal website and projects.
 
-Performance Improvement: reduces delay between client connecting to host.
+Performance Improvement: reduces connection time between client and host.
 
 Downside: There are probably faster, more expensive solutions (i.e. dedicated Akamai server).
 
