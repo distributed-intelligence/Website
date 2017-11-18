@@ -12,9 +12,9 @@ To motivate this personal website, I attempted to create the most performant web
 
 ### Result 
 
-~80ms average page load speed from Vancouver, Canada.
-
 ~30ms average page load speed from San Jose, California, USA.
+
+~100ms average page load speed from Vancouver, Canada.
 
 See benchmarks below.
 
@@ -99,7 +99,7 @@ This site acheives a perfect score on the following pagespeed testing bechmarks:
 
 [GTmetrix Performance Report (PageSpeed and YSlow)](https://gtmetrix.com/reports/muhammadhaidar.me/fvnHBURR)
 
-[GTmetrix Performance Report (comparison with https://google.ca)](https://gtmetrix.com/compare/QakIfZBa/QbbU6P4O)
+[GTmetrix Performance Report (comparison with https://www.google.ca)](https://gtmetrix.com/compare/HJ09yJnU/EmFHSstX)
 
 *GTmetrix awards a 99/100 for the "Specify Image Dimensions" criterion. This is a [false negative](https://gtmetrix.com/specify-image-dimensions.html).
 
