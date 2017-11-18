@@ -127,7 +127,7 @@ The size of the page served upon a client visit is 3.62kb, as of writing (see op
 
 ## Styling
 
-See [main.css](Website/working_files/stylesheets/main.css)
+See [main.css](working_files/stylesheets/main.css)
 
 ## To-do
 
